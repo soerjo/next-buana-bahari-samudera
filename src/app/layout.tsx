@@ -10,13 +10,9 @@ export const metadata: Metadata = {
   description: 'Company Buana Bahari Samudera',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="id" className='scroll-smooth'>
+    <html lang="id">
       <head>
         <meta charSet="utf-8" />
         <Favicon />

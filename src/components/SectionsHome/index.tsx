@@ -3,15 +3,19 @@ import SectionComp from "../SectionComp";
 
 const SectionHome = () => {
     return (
-        <SectionComp id="home">
-            <div className="bg-[#00001F] w-full h-full flex justify-center items-center">
-                <h1>SectionHome</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iure
-                    aspernatur eveniet quod temporibus pariatur, architecto similique.
+        <SectionComp id="home" classname="bg-[#00001F]">
+            <div className="w-full h-full flex flex-col justify-center items-center">
+                <h1 className="text-white text-center text-8xl font-bold mb-4">
+                    Section Home
+                </h1>
+                <p className="text-white text-center py-8">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex
+                    reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus
+                    minus provident accusamus error minima consequuntur blanditiis
+                    libero necessitatibus sapiente fugit.
                 </p>
 
-                <button>Booking Now</button>
+                <button className="bg-white rounded-full py-4 px-12 font-bold text-lg">Booking Now</button>
             </div>
         </SectionComp>
     );

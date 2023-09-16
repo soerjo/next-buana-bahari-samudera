@@ -39,7 +39,7 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
   .link {
-    @apply font-bold  text-gray-400  text-sm;
+    @apply font-bold  text-gray-400  text-sm text-center py-8 md:py-0;
   }
   .active-link {
     @apply border-b-2 border-b-[#98E0FF] text-white;

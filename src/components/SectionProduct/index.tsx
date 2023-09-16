@@ -3,8 +3,8 @@ import SectionComp from '../SectionComp'
 
 const SectionProduct = () => {
     return (
-        <SectionComp id="product">
-            <div className="bg-blue-300 w-full h-full flex justify-center items-center">
+        <SectionComp id="product" classname="bg-blue-300">
+            <div className="w-full h-full flex justify-center items-center">
                 <div>SectionProduct</div>
             </div>
         </SectionComp>
