@@ -1,0 +1,42 @@
+{
+    "logosrc": "/icon/logo-company.png",
+    "links": [
+        {
+            "name": "Home",
+            "link": "#home",
+            "iconsrc": ""
+        },
+        {
+            "name": "Product",
+            "link": "#product",
+            "iconsrc": ""
+        },
+        {
+            "name": "About",
+            "link": "#about",
+            "iconsrc": ""
+        },
+        {
+            "name": "Pricing",
+            "link": "#pricing",
+            "iconsrc": ""
+        },
+        {
+            "name": "Information",
+            "link": "#information",
+            "iconsrc": ""
+        }
+    ],
+    "buttons": [
+        {
+            "name": "Booking Now",
+            "link": "https://api.whatsapp.com/send?phone=+6289693919042&text=aku+ingin+membuat+sebuah+permintaan.%0D%0Aya+itu+adalah+sebuah+pemahaman+dari+kamu%2C+iya+kamu...",
+            "iconsrc": ""
+        },
+        {
+            "name": "Contact Us",
+            "link": "https://api.whatsapp.com/send?phone=+6289693919042&text=aku+ingin+membuat+sebuah+permintaan.%0D%0Aya+itu+adalah+sebuah+pemahaman+dari+kamu%2C+iya+kamu...",
+            "iconsrc": ""
+        }
+    ]
+}
