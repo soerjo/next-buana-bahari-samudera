@@ -23,9 +23,7 @@ export default function SectionComp({ children, id, classname }: ISectionComp) {
 
     return (
         <section ref={ref} id={id} className={"h-screen w-full " + classname}>
-            <div className="container m-auto w-full h-full">
-                {children}
-            </div>
+            {children}
         </section>
     );
 }
