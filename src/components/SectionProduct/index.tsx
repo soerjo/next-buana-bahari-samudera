@@ -6,7 +6,7 @@ import listimage from "./listimage.json";
 import Image from "next/image";
 
 const SectionProduct = () => {
-    const [descriptionSections, setdescriptionSections] = React.useState("")
+    const [descriptionSections, setdescriptionSections] = React.useState("Show all")
 
     return (
         <SectionComp id="product" classname="bg-[#1D2A49]">
