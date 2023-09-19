@@ -4,7 +4,7 @@ import SectionComp from "../SectionComp";
 const SectionHome = () => {
     return (
         <SectionComp id="home" classname="bg-[#00001F]">
-            <div className="h-screen flex justify-center items-center">
+            <div className="h-full min-h-screen flex flex-col justify-center items-center">
                 <div className="container px-8 flex flex-col justify-center items-center">
                     <h1 className="text-white text-center text-6xl md:text-8xl font-bold mb-4">
                         SERVICE CARGO WITH PRIDE AND SAFETY

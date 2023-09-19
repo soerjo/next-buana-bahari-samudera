@@ -10,8 +10,8 @@ const SectionProduct = () => {
 
     return (
         <SectionComp id="product" classname="bg-[#1D2A49]">
-            <div className="w-full h-full flex flex-col justify-between">
-                <div className="max-w-[653px] m-auto flex flex-col justify-center items-center pt-14 md:pt-12">
+            <div className="h-full min-h-screen flex flex-col justify-between items-center">
+                <div className="max-w-[653px] m-auto flex flex-col justify-center items-center pt-14 md:pt-12 container p-8">
                     <h1 className="text-white text-center text-5xl font-bold mb-6 ">
                         Section Perbuatan gue
                     </h1>
@@ -38,7 +38,7 @@ const SectionProduct = () => {
                         })}
                     </ul>
                 </div>
-                <div className="w-full bg-red-300 flex flex-wrap justify-center items-center">
+                <div className="w-full flex flex-wrap justify-center items-center">
                     {listimage.map((image, index) => {
                         return (
                             <Image
