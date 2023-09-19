@@ -65,10 +65,10 @@ const listservices = [
 const Footer = () => {
     return (
         <footer id="about" className="bg-[#98E0FF] ">
-            <div className="flex justify-between container p-8 mx-auto">
-                <div className="flex flex-col justify-center items-start gap-4 max-w-sm">
-                    <h3 className="text-2xl font-bold">Mockup Company</h3>
-                    <p>
+            <div className="flex flex-col md:flex-row justify-between container p-8 mx-auto gap-8">
+                <div className="flex flex-col justify-center items-start gap-4 w-full md:max-w-sm">
+                    <h3 className="text-2xl font-bold text-justify">Mockup Company</h3>
+                    <p className="text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
                         culpa exercitationem reiciendis dolores quam, obcaecati eum atque
                         debitis a omnis ipsa blanditiis cumque iure facere possimus ab
@@ -84,14 +84,14 @@ const Footer = () => {
                         })}
                     </div>
                 </div>
-                <div className="flex justify-center items-start gap-12 p-4">
+                <div className="flex justify-start items-start gap-8 py-4">
                     {listservices.map((list, index) => {
                         return (
                             <div key={index}>
                                 <h3 className="text-xl font-bold pb-4">{list.title}</h3>
                                 <ul className="flex flex-col justify-end gap-1">
                                     {list.list.map((childlist, index) => (
-                                        <li key={index} className="text-right">
+                                        <li key={index} className="text-left md:text-right">
                                             <Link href={childlist.link}>{childlist.title}</Link>
                                         </li>
                                     ))}
