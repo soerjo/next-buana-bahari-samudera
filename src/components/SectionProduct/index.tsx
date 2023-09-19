@@ -9,26 +9,26 @@ const SectionProduct = () => {
     const [descriptionSections, setdescriptionSections] = React.useState("Show all")
 
     return (
-        <SectionComp id="product" classname="bg-[#1D2A49]">
+        <SectionComp id="product" classname="bg-white">
             <div className="h-full min-h-screen flex flex-col justify-between items-center">
-                <div className="max-w-[653px] m-auto flex flex-col justify-center items-center pt-14 md:pt-12 container p-8">
-                    <h1 className="text-white text-center text-5xl font-bold mb-6 ">
-                        Section Perbuatan gue
+                <div className="max-w-[860px] m-auto flex flex-col justify-center items-center pt-14 md:pt-12 container p-8">
+                    <h1 className="text-[#2b1656] text-center text-5xl font-black mb-6 ">
+                        Our Products
                     </h1>
-                    <p className="text-white text-center py-4 font-light">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex
-                        reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus.
+                    <p className="text-[#2b1656] text-center py-4 font-medium">
+                    Introducing our five high-quality cargo services meticulously designed to cater to your shipping needs,
+                    each developed with dedicated precision to deliver an unparalleled shipping experience tailored to your utmost satisfaction.
                     </p>
 
                     <ul className="flex gap-4 md:flex-row ">
-                        {["Show all", "Tugboat", "Barge", "People"].map((sectionMenu, index) => {
+                        {["Show all", "Management Operation", "TC/FC", "LTC", "Vessel","Buy & Sale Agency Shipment"].map((sectionMenu, index) => {
                             return (
                                 <li
                                     key={index}
                                     onClick={() => setdescriptionSections(sectionMenu)}
                                     className={
                                         descriptionSections === sectionMenu
-                                            ? "link active-link flex justify-center items-center font-semibold hover:cursor-pointer p-2"
+                                            ? "link active-link flex justify-center items-center font-semibold hover:cursor-pointer p-2 text-black"
                                             : "link flex justify-center items-center font-semibold hover:cursor-pointer p-2"
                                     }
                                 >
