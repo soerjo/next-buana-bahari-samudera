@@ -5,7 +5,7 @@ const SectionHome = () => {
     return (
         <SectionComp id="home" classname="bg-[#00001F]">
             <div className="container m-auto w-full h-full flex flex-col justify-center items-center">
-                <h1 className="text-white text-center text-8xl font-bold mb-4">
+                <h1 className="text-white text-center text-6xl md:text-8xl font-bold mb-4">
                     SERVICE CARGO WITH PRIDE AND SAFETY
                 </h1>
                 <p className="text-white text-center py-8">
