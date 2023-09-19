@@ -14,7 +14,7 @@ const SectionInformation = () => {
                         {listdata.description}
                     </p>
                 </div>
-                <div className='w-full flex flex-col lg:flex-row container mx-auto gap-4 overflow-y-auto'>
+                <div className='w-full flex flex-col lg:flex-row container mx-auto gap-12 overflow-y-auto'>
                     {
                         listdata.informations.map((information, index) => {
                             return (
