@@ -24,7 +24,7 @@ const SectionAbout = () => {
                     priority
                 />
                 <ContentDescription listdata={listdata.vision} />
-            </div>{" "}
+            </div>
         </SectionComp>
     );
 };

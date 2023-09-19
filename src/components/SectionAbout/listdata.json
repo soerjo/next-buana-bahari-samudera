@@ -1,34 +1,34 @@
 {
     "value": [
         {
-            "title": "vision 01",
+            "title": "Value01",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         },
         {
-            "title": "vision 02",
+            "title": "Value02",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         },
         {
-            "title": "vision 03",
+            "title": "Value03",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         },
         {
-            "title": "vision 04",
+            "title": "Value04",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         }
     ],
     "vision": [
         {
-            "title": "vision 01",
+            "title": "Vision 01",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         },
         {
-            "title": "vision 02",
+            "title": "Vision 02",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         }
