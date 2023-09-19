@@ -38,7 +38,7 @@ const NavbarComp: React.FC = () => {
     })
 
     return (
-        <nav className={"fixed flex justify-center items-center top-0 w-full h-fit py-4 " + (!isOnTop ? "backdrop-blur-xl bg-[#00001F]/50 " : "backdrop-blur-xl bg-[#00001F]/50 md:bg-transparent")}>
+        <nav className={"fixed flex justify-center items-center top-0 w-full h-fit py-4 " + (!isOnTop ? "backdrop-blur-xl bg-[#FFF]/10 drop-shadow-xl" : "backdrop-blur-xl bg-[#FFF]/50 md:bg-transparent drop-shadow-xl")}>
             <div className="flex flex-col md:flex-row justify-between items-center container px-4 md:px-0 mx-8">
                 <div className="flex justify-between items-center w-full md:w-fit">
                     <Link href={jsonNavbarComp.links[0].link}>
@@ -71,7 +71,7 @@ const NavbarComp: React.FC = () => {
                                 return (
                                     <li
                                         key={index}
-                                        className={allContext === link.name.toLowerCase() ? "link active-link flex justify-center items-center" : "link flex justify-center items-center"}
+                                        className={allContext === link.name.toLowerCase() ? "link active-link flex justify-center items-center text-[#0047AB] hover:scale-110 transition ease-in drop-shadow-xl" : "link flex justify-center items-center text-black hover:scale-110 transition ease-in"}
                                     >
                                         <Link
                                             onClick={() => setbarOnclick(false)}
