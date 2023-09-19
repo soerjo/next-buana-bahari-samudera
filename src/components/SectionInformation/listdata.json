@@ -1,0 +1,18 @@
+{
+    "title": "Company Flyer",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non accusamus amet placeat, quas delectus odio consequuntur.",
+    "informations": [
+        {
+            "title": "Company Flyer",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non accusamus amet placeat, quas delectus odio consequuntur, eos ut atque mollitia quo porro magni quisquam, error maiores! Nesciunt, beatae sapiente?\n Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non accusamus amet placeat, quas delectus odio consequuntur, eos ut atque mollitia quo porro magni quisquam, error maiores! Nesciunt, beatae sapiente?"
+        },
+        {
+            "title": "Company Flyer",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non accusamus amet placeat, quas delectus odio consequuntur, eos ut atque mollitia quo porro magni quisquam, error maiores! Nesciunt, beatae sapiente?\n Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non accusamus amet placeat, quas delectus odio consequuntur, eos ut atque mollitia quo porro magni quisquam, error maiores! Nesciunt, beatae sapiente?"
+        },
+        {
+            "title": "Company Flyer",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non accusamus amet placeat, quas delectus odio consequuntur, eos ut atque mollitia quo porro magni quisquam, error maiores! Nesciunt, beatae sapiente?\n Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non accusamus amet placeat, quas delectus odio consequuntur, eos ut atque mollitia quo porro magni quisquam, error maiores! Nesciunt, beatae sapiente?"
+        }
+    ]
+}
