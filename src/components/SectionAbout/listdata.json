@@ -1,8 +1,36 @@
-[
-    "/images/pexels-lucas-pezeta-1996162.jpg",
-    "/images/pexels-lucas-pezeta-4272498.jpg",
-    "/images/pexels-mermek-avitia-1573324.jpg",
-    "/images/pexels-mwabonje-ringa-1074603.jpg",
-    "/images/pexels-pixabay-33537.jpg",
-    "/images/pexels-radosław-krupa-11118643.jpg"
-]
+{
+    "value": [
+        {
+            "title": "vision 01",
+            "iconsrc": "/icon/vision-01.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+        },
+        {
+            "title": "vision 02",
+            "iconsrc": "/icon/vision-01.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+        },
+        {
+            "title": "vision 03",
+            "iconsrc": "/icon/vision-01.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+        },
+        {
+            "title": "vision 04",
+            "iconsrc": "/icon/vision-01.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+        }
+    ],
+    "vision": [
+        {
+            "title": "vision 01",
+            "iconsrc": "/icon/vision-01.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+        },
+        {
+            "title": "vision 02",
+            "iconsrc": "/icon/vision-01.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+        }
+    ]
+}
