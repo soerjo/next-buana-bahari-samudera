@@ -6,7 +6,7 @@ import { AllContext } from "../ContextComp";
 
 export interface ISectionComp {
     children: React.ReactNode,
-    classname: string,
+    classname?: string,
     id: string
 }
 
