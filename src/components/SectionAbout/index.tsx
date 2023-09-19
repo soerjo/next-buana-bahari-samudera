@@ -9,7 +9,7 @@ const SectionAbout = () => {
     return (
         <SectionComp id="about" classname="bg-blue-950 ">
             <div className="w-full h-full flex flex-col justify-between">
-                <div className="m-auto flex flex-col justify-center items-center pt-14 md:pt-12">
+                <div className="m-auto flex flex-col justify-center items-center pt-14 md:pt-12 container px-8">
                     <h1 className="text-white text-center text-5xl font-bold mb-6 ">
                         {"Company Value"}
                     </h1>
@@ -23,7 +23,9 @@ const SectionAbout = () => {
                     width={370}
                     priority
                 />
-                <ContentDescription listdata={listdata.vision} />
+                <div className="m-auto flex flex-col justify-center items-center pt-14 md:pt-12 container px-8">
+                    <ContentDescription listdata={listdata.vision} />
+                </div>
             </div>
         </SectionComp>
     );
