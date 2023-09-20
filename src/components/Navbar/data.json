@@ -25,6 +25,11 @@
             "name": "Information",
             "link": "#information",
             "iconsrc": ""
+        },
+        {
+            "name": "Contact",
+            "link": "#contact",
+            "iconsrc": ""
         }
     ],
     "buttons": [

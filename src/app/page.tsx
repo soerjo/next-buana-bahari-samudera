@@ -7,6 +7,7 @@ import SectionPricing from "@/components/SectionPricing";
 import SectionInformation from "@/components/SectionInformation";
 import Footer from "@/components/Footer";
 import ContextComp from "@/components/ContextComp";
+import SectionContact from "@/components/SectionContact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <SectionAbout />
         <SectionPricing />
         <SectionInformation />
+        <SectionContact />
         <Footer />
       </ContextComp>
     </main>

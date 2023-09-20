@@ -1,5 +1,3 @@
-'use client'
-
 import React from 'react'
 import SectionComp from '../SectionComp'
 import listdata from './listdata.json'
