@@ -85,8 +85,8 @@ const NavbarComp: React.FC = () => {
                                         key={index}
                                         className={
                                             allContext === link.name.toLowerCase()
-                                                ? "link active-link flex justify-center items-center text-[#0047AB] hover:scale-110 transition ease-in drop-shadow-xl p-6"
-                                                : "link flex justify-center items-center text-black hover:scale-110 transition ease-in p-6"
+                                                ? "link active-link flex justify-center items-center text-[#0047AB] hover:scale-110 transition ease-in drop-shadow-xl py-6 md:py-0"
+                                                : "link flex justify-center items-center text-black hover:scale-110 transition ease-in py-6 md:py-0"
                                         }
                                     >
                                         <Link
@@ -100,7 +100,7 @@ const NavbarComp: React.FC = () => {
                             })
                         }
                     </ul>
-                    <ul className="flex gap-4">
+                    <ul className="hidden lg:flex gap-4 ">
                         {
                             // LIST OF BUTTONS...
                             jsonNavbarComp?.buttons &&

@@ -22,7 +22,7 @@ export default function SectionComp({ children, id, classname }: ISectionComp) {
 
 
     return (
-        <section ref={ref} id={id} className={"min-h-screen md:h-screen w-full " + classname}>
+        <section ref={ref} id={id} className={"min-h-screen md:h-screen w-full pt-10 md:pt-0 " + classname}>
             {children}
         </section>
     );
