@@ -23,30 +23,37 @@ export interface JsonNavbarComp {
 const NavbarComp: React.FC = () => {
     const jsonNavbarComp: JsonNavbarComp = jsondata || ({} as JsonNavbarComp);
 
-    const [isOnTop, setisOnTop] = React.useState(true)
+    const [isOnTop, setisOnTop] = React.useState(true);
     const [barOnclick, setbarOnclick] = React.useState(false);
-    const { scrollY } = useScroll()
+    const { scrollY } = useScroll();
 
     const { allContext } = React.useContext(AllContext);
 
-    useMotionValueEvent(scrollY, "change", (latest) => {
+    useMotionValueEvent(scrollY, "change", latest => {
         if (latest > 100) {
-            setisOnTop(false)
+            setisOnTop(false);
         } else {
-            setisOnTop(true)
+            setisOnTop(true);
         }
-    })
+    });
 
     return (
-        <nav className={"z-50 fixed flex justify-center items-center top-0 w-full h-fit py-0 " + (!isOnTop ? "backdrop-blur-xl bg-[#FFF]/10 drop-shadow-xl" : "backdrop-blur-xl bg-[#FFF]/50 md:bg-transparent drop-shadow-xl")}>
+        <nav
+            className={
+                "z-50 fixed flex justify-center items-center top-0 w-full h-fit py-0 " +
+                (!isOnTop
+                    ? "backdrop-blur-xl bg-[#FFF]/10 drop-shadow-xl"
+                    : "backdrop-blur-xl bg-[#FFF]/50 md:bg-transparent drop-shadow-xl")
+            }
+        >
             <div className="flex flex-col md:flex-row justify-between items-center container px-4 md:px-0 mx-8">
                 <div className="flex justify-between items-center w-full md:w-fit">
                     <Link href={jsonNavbarComp.links[0].link}>
                         <Image
                             src={jsonNavbarComp.logosrc}
                             alt={"company logo"}
-                            width={100}
-                            height={100}
+                            width={80}
+                            height={80}
                             priority
                         />
                     </Link>
@@ -62,7 +69,12 @@ const NavbarComp: React.FC = () => {
                         />
                     </div>
                 </div>
-                <div className={"flex md:flex-row flex-col gap-8 py-8 md:py-0 " + (barOnclick ? "flex" : "hidden md:flex")}>
+                <div
+                    className={
+                        "flex md:flex-row flex-col gap-8 py-8 md:py-0 " +
+                        (barOnclick ? "flex" : "hidden md:flex")
+                    }
+                >
                     <ul className="flex gap-4 flex-col md:flex-row ">
                         {
                             // LIST OF LINKS...
@@ -71,12 +83,18 @@ const NavbarComp: React.FC = () => {
                                 return (
                                     <li
                                         key={index}
-                                        className={allContext === link.name.toLowerCase() ? "link active-link flex justify-center items-center text-[#0047AB] hover:scale-110 transition ease-in drop-shadow-xl" : "link flex justify-center items-center text-black hover:scale-110 transition ease-in"}
+                                        className={
+                                            allContext === link.name.toLowerCase()
+                                                ? "link active-link flex justify-center items-center text-[#0047AB] hover:scale-110 transition ease-in drop-shadow-xl p-6"
+                                                : "link flex justify-center items-center text-black hover:scale-110 transition ease-in p-6"
+                                        }
                                     >
                                         <Link
                                             onClick={() => setbarOnclick(false)}
                                             href={link.link}
-                                        >{link.name}</Link>
+                                        >
+                                            {link.name}
+                                        </Link>
                                     </li>
                                 );
                             })
