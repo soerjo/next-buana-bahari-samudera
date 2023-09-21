@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const SectionInformation = () => {
     return (
-        <SectionComp id="information" classname="bg-white">
+        <SectionComp id="news" classname="bg-white">
             <div className="relative w-full h-full flex justify-center items-center flex-col py-8 gap-8 container p-8 mx-auto">
                 <div className="max-w-[653px] mx-auto flex flex-col justify-center items-center pt-14 md:pt-12">
                     <h1 className="text-[#2b1656] text-center text-5xl font-bold mb-2">

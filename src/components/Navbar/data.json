@@ -17,13 +17,18 @@
             "iconsrc": ""
         },
         {
-            "name": "Pricing",
-            "link": "#pricing",
+            "name": "Structure",
+            "link": "#structure",
             "iconsrc": ""
         },
         {
-            "name": "Information",
-            "link": "#information",
+            "name": "Career",
+            "link": "#career",
+            "iconsrc": ""
+        },
+        {
+            "name": "News",
+            "link": "#news",
             "iconsrc": ""
         },
         {

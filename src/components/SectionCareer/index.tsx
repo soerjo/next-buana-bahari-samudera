@@ -3,13 +3,13 @@ import SectionComp from "../SectionComp";
 import listimage from "./listimage.json";
 import Image from "next/image";
 
-const SectionPricing = () => {
+const SectionCareer = () => {
   return (
-    <SectionComp id="structure" classname="bg-white">
+    <SectionComp id="career" classname="bg-white">
       <div className="h-full min-h-screen flex flex-col justify-between items-center">
         <div className="max-w-[853px] m-auto flex flex-col justify-center items-center pt-14 md:pt-12 container p-8">
           <h1 className="text-[#2b1656] text-center text-5xl font-bold mb-2 ">
-            Company Structure
+            Career
           </h1>
           <p className="text-[#2b1656] text-center text-2xl font-medium py-4">
             Buana Bahari Samudera (BBS) was established in January 2023 and is
@@ -47,4 +47,4 @@ const SectionPricing = () => {
   );
 };
 
-export default SectionPricing;
+export default SectionCareer;
