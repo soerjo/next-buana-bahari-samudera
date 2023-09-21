@@ -38,15 +38,15 @@ const NavbarComp: React.FC = () => {
     })
 
     return (
-        <nav className={"z-50 fixed flex justify-center items-center top-0 w-full h-fit py-4 " + (!isOnTop ? "backdrop-blur-xl bg-[#FFF]/10 drop-shadow-xl" : "backdrop-blur-xl bg-[#FFF]/50 md:bg-transparent drop-shadow-xl")}>
+        <nav className={"z-50 fixed flex justify-center items-center top-0 w-full h-fit py-0 " + (!isOnTop ? "backdrop-blur-xl bg-[#FFF]/10 drop-shadow-xl" : "backdrop-blur-xl bg-[#FFF]/50 md:bg-transparent drop-shadow-xl")}>
             <div className="flex flex-col md:flex-row justify-between items-center container px-4 md:px-0 mx-8">
                 <div className="flex justify-between items-center w-full md:w-fit">
                     <Link href={jsonNavbarComp.links[0].link}>
                         <Image
                             src={jsonNavbarComp.logosrc}
                             alt={"company logo"}
-                            width={40}
-                            height={40}
+                            width={100}
+                            height={100}
                             priority
                         />
                     </Link>
