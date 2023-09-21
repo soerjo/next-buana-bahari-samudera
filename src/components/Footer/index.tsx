@@ -64,15 +64,13 @@ const listservices = [
 
 const Footer = () => {
     return (
-        <footer id="about" className="bg-[#98E0FF] ">
+        <footer id="about" className="bg-[#ebebeb] ">
             <div className="flex flex-col md:flex-row justify-between container p-8 mx-auto gap-8">
                 <div className="flex flex-col justify-center items-start gap-4 w-full md:max-w-sm">
-                    <h3 className="text-2xl font-bold text-justify">Mockup Company</h3>
-                    <p className="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-                        culpa exercitationem reiciendis dolores quam, obcaecati eum atque
-                        debitis a omnis ipsa blanditiis cumque iure facere possimus ab
-                        incidunt saepe ex.
+                    <h3 className="text-2xl font-bold text-justify">Buana Bahari Samudera</h3>
+                    <p className="text-left">
+                        Buana Bahari Samudera (BBS) was established in January 2023 and is envisioned to be 
+                        one of the Best Operating Shipment comapnies in Indonesia. 
                     </p>
                     <div className="flex justify-center items-center gap-2">
                         {listmedsos.map((list, index) => {

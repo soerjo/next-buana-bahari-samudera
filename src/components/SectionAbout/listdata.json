@@ -1,34 +1,29 @@
 {
     "value": [
         {
-            "title": "Value01",
+            "title": "Intergrity",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         },
         {
-            "title": "Value02",
+            "title": "Integrated",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         },
         {
-            "title": "Value03",
-            "iconsrc": "/icon/vision-01.svg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
-        },
-        {
-            "title": "Value04",
+            "title": "Team Work",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         }
     ],
     "vision": [
         {
-            "title": "Vision 01",
+            "title": "Vision",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         },
         {
-            "title": "Vision 02",
+            "title": "Mission",
             "iconsrc": "/icon/vision-01.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
         }

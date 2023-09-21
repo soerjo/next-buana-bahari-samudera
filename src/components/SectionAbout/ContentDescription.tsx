@@ -9,7 +9,7 @@ export interface IData {
 const ContentDescription = ({ listdata }: { listdata: IData[] }) => {
     return (
         <div className="m-auto flex flex-col justify-center items-center container p-4">
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
                 {listdata.map((data, index) => {
                     return (
                         <div
@@ -17,15 +17,15 @@ const ContentDescription = ({ listdata }: { listdata: IData[] }) => {
                             className="flex justify-center items-center max-w-xl gap-4"
                         >
                             <Image
-                                className="bg-white rounded-full p-2 hidden md:flex"
+                                className="bg-[#2b1656] rounded-full p-2 hidden md:flex"
                                 alt={`image_${index}`}
                                 src={data.iconsrc}
                                 height={120}
                                 width={120}
                                 priority
                             />
-                            <div className="flex flex-col justify-center items-start pb-8">
-                                <div className="flex justify-start items-center gap-2 w-full pb-2">
+                            <div className="flex flex-col justify-beetween items-start pb-8">
+                                <div className="flex justify-center items-center gap-2 w-full pb-2">
                                     <Image
                                         className="bg-white rounded-full p-2 flex md:hidden"
                                         alt={`image_${index}`}
@@ -34,9 +34,9 @@ const ContentDescription = ({ listdata }: { listdata: IData[] }) => {
                                         width={40}
                                         priority
                                     />
-                                    <h3 className="text-2xl font-bold text-white">{data.title}</h3>
+                                    <h3 className="text-2xl font-bold text-[#2b1656]">{data.title}</h3>
                                 </div>
-                                <p className="text-white text-justify">{data.description}</p>
+                                <p className="text-[#2b1656] font-medium text-justify">{data.description}</p>
                             </div>
                         </div>
                     );
