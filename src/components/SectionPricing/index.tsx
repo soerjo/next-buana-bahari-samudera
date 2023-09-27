@@ -18,7 +18,7 @@ const SectionPricing = () => {
             Indonesia.
           </p>
 
-          <div className="flex flex-row space-x-10 mt-0">
+          <div className="flex flex-col space-y-10 mt-0 items-center justify-center md:flex-row md:space-x-10">
             <PersonCard
               name="Sonny Apriliano"
               position="Chief Executive Officer"

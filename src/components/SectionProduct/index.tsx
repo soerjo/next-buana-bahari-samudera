@@ -56,7 +56,7 @@ const SectionProduct = () => {
                         );
                     })}
                 </div> */}
-        <div className="flex flex-row space-x-5">
+        <div className="flex flex-col p-10 item-center justify-center space-y-5 md:flex-row md:space-x-5">
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
             <img
               className="w-full border-spacing-3"
