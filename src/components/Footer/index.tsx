@@ -9,15 +9,23 @@ const listservices = [
         title: "Products",
         list: [
             {
-                title: "Product 1",
+                title: "230 ft",
                 link: "#",
             },
             {
-                title: "Product 2",
+                title: "250 ft",
                 link: "#",
             },
             {
-                title: "Product 3",
+                title: "280 ft",
+                link: "#",
+            },
+            {
+                title: "300 ft",
+                link: "#",
+            },
+            {
+                title: "330 ft",
                 link: "#",
             },
         ],
@@ -26,15 +34,23 @@ const listservices = [
         title: "Services",
         list: [
             {
-                title: "Services 1",
+                title: "TC/FC",
                 link: "#",
             },
             {
-                title: "Services 2",
+                title: "Management Operation",
                 link: "#",
             },
             {
-                title: "Services 3",
+                title: "LTC",
+                link: "#",
+            },
+            {
+                title: "Vessel",
+                link: "#",
+            },
+            {
+                title: "Buy & Sale Agency",
                 link: "#",
             },
         ],
@@ -86,7 +102,7 @@ const Footer = () => {
                     {listservices.map((list, index) => {
                         return (
                             <div key={index}>
-                                <h3 className="text-xl font-bold pb-4">{list.title}</h3>
+                                <h3 className="flex justify-end text-xl font-bold pb-4">{list.title}</h3>
                                 <ul className="flex flex-col justify-end gap-1">
                                     {list.list.map((childlist, index) => (
                                         <li key={index} className="text-left md:text-right">

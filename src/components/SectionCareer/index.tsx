@@ -11,13 +11,13 @@ const SectionCareer = () => {
           <h1 className="text-[#2b1656] text-center text-5xl font-bold mb-2 ">
             Career
           </h1>
-          <p className="text-[#2b1656] text-center text-2xl font-medium py-4">
+          <p className="text-[#2b1656] text-center text-[14pt] font-medium py-4">
             Buana Bahari Samudera (BBS) was established in January 2023 and is
             envisioned to be one of the Best Operating Shipment comapnies in
             Indonesia.
           </p>
         </div>
-        <div className="w-full flex flex-col md:hidden justify-center items-center">
+        {/* <div className="w-full flex flex-col md:hidden justify-center items-center">
           <Image
             className="object-cover w-full h-[437px] md:w-1/4 md:h-[437px] overflow-hidden"
             alt={`image_`}
@@ -41,7 +41,7 @@ const SectionCareer = () => {
               />
             );
           })}
-        </div>
+        </div> */}
       </div>
     </SectionComp>
   );

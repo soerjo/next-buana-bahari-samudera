@@ -3,29 +3,29 @@
         {
             "title": "Intergrity",
             "iconsrc": "/icon/vision-01.svg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+            "description": "The unwavering commitment to honesty, truthfulness, and moral principles, even when no one is watching."
         },
         {
             "title": "Integrated",
             "iconsrc": "/icon/vision-01.svg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+            "description": "Through our integrated approach, synergize every aspect of our business to ensure optimal efficiency."
         },
         {
             "title": "Team Work",
             "iconsrc": "/icon/vision-01.svg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+            "description": "Working together towards a common goal, leveraging their diverse skills and strengths to achieve success."
         }
     ],
     "vision": [
         {
             "title": "Vision",
-            "iconsrc": "/icon/vision-01.svg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+            "iconsrc": "/icon/vision.png",
+            "description": "One of the Operating Shipment companies in Indonesia with experience and expertise in handling cargo."
         },
         {
             "title": "Mission",
-            "iconsrc": "/icon/vision-01.svg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex reprehenderit quos sed modi! Id harum, incidunt reprehenderit natus."
+            "iconsrc": "/icon/mission.png",
+            "description": "Development networking barge shipment, LTC and Vessel specialist with trust and pride."
         }
     ]
 }

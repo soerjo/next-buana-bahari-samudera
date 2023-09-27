@@ -23,7 +23,7 @@ const SectionAbout = () => {
           width={370}
           priority
         /> */}
-        <div className="mx-auto flex flex-col justify-center items-center pt-14 md:pt-12 container px-8">
+        <div className="mx-auto flex flex-col justify-center items-center pt-14 md:pt-12 container px-8 text-left">
           <h1 className="text-[#2b1656] text-center text-4xl font-black md:text-5xl mb-6 ">
             Company Goals
           </h1>
