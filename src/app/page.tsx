@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import ContextComp from "@/components/ContextComp";
 import SectionContact from "@/components/SectionContact";
 import SectionCareer from "@/components/SectionCareer";
+import ProductList from "@/components/SectionProduct/productsec";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <ContextComp>
         <NavbarComp />
         <SectionHome />
-        <SectionProduct />
+        <ProductList />
         <SectionAbout />
         <SectionPricing />
         <SectionCareer />
